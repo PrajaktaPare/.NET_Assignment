@@ -2,7 +2,7 @@
 
 namespace Assignment_2
 {
-    // Interface defining calculator operations
+   
     interface ICalculator
     {
         double Sum(double a, double b);
@@ -14,7 +14,7 @@ namespace Assignment_2
         double Percentage(double total, double obtained);
     }
 
-    // Class implementing the calculator operations
+   
     class Calculator : ICalculator
     {
         public double Sum(double a, double b) => a + b;
