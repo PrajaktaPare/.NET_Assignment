@@ -6,9 +6,9 @@ namespace Assignment_2
     interface ICalculator
     {
         double Sum(double a, double b);
-        double Sum(double a, double b, double c); // Overloaded Sum method
+        double Sum(double a, double b, double c);
         double Subtract(double a, double b);
-        double Subtract(double a, double b, double c); // Overloaded Subtract method
+        double Subtract(double a, double b, double c);
         double Multiply(double a, double b);
         double Divide(double a, double b);
         double Percentage(double total, double obtained);
@@ -18,15 +18,11 @@ namespace Assignment_2
     class Calculator : ICalculator
     {
         public double Sum(double a, double b) => a + b;
-        public double Sum(double a, double b, double c) => a + b + c; // Overloaded method
-
+        public double Sum(double a, double b, double c) => a + b + c;
         public double Subtract(double a, double b) => a - b;
-        public double Subtract(double a, double b, double c) => a - b - c; // Overloaded method
-
+        public double Subtract(double a, double b, double c) => a - b - c;
         public double Multiply(double a, double b) => a * b;
-
         public double Divide(double a, double b) => b != 0 ? a / b : throw new DivideByZeroException("Cannot divide by zero");
-
         public double Percentage(double total, double obtained) => total != 0 ? (obtained / total) * 100 : throw new ArgumentException("Total cannot be zero");
     }
 
@@ -59,6 +55,17 @@ namespace Assignment_2
         {
             Calculator calc = new Calculator();
 
+            // First, get the numbers
+            double num1 = GetValidNumber("Enter First Number: ");
+            double num2 = GetValidNumber("Enter Second Number: ");
+
+            double num3 = 0;
+            Console.Write("Do you want to enter a third number? (y/n): ");
+            if (Console.ReadLine().ToLower() == "y")
+            {
+                num3 = GetValidNumber("Enter Third Number: ");
+            }
+
             while (true)
             {
                 DisplayMenu();
@@ -67,14 +74,50 @@ namespace Assignment_2
                 {
                     if (choice == 6) break; // Exit the loop
 
-                    double num1 = GetValidNumber("Enter First Number: ");
-                    double num2 = GetValidNumber("Enter Second Number: ");
-
                     switch (choice)
                     {
                         case 1: // Addition
-                            Console.Write("Do you want to add another number? (y/n): ");
-                            if (Console.ReadLine().ToLower() == "y")
+                            Console.WriteLine(num3 != 0 ? $"Sum: {calc.Sum(num1, num2, num3)}" : $"Sum: {calc.Sum(num1, num2)}");
+                            break;
+
+                        case 2: // Subtraction
+                            Console.WriteLine(num3 != 0 ? $"Subtraction: {calc.Subtract(num1, num2, num3)}" : $"Subtraction: {calc.Subtract(num1, num2)}");
+                            break;
+
+                        case 3: // Multiplication
+                            Console.WriteLine($"Multiplication: {calc.Multiply(num1, num2)}");
+                            break;
+
+                        case 4: // Division
+                            try
                             {
-                                double num3 = GetValidNumber("Enter Third Number: ");
-                                Console.WriteLine($"Su
+                                Console.WriteLine($"Division: {calc.Divide(num1, num2)}");
+                            }
+                            catch (DivideByZeroException ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                            }
+                            break;
+
+                        case 5: // Percentage
+                            try
+                            {
+                                Console.WriteLine($"Percentage: {calc.Percentage(num1, num2)}%");
+                            }
+                            catch (ArgumentException ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                            }
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid choice. Please select a number between 1 and 6.");
+                }
+            }
+
+            Console.WriteLine("Exiting program. Thank you!");
+        }
+    }
+}
