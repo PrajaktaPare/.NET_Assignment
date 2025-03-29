@@ -1,0 +1,20 @@
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\bin\Debug\Question1.exe.config
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\bin\Debug\Question1.exe
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\bin\Debug\Question1.pdb
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\obj\Debug\Question1.csproj.AssemblyReference.cache
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\obj\Debug\Question1.Form1.resources
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\obj\Debug\Question1.Properties.Resources.resources
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\obj\Debug\Question1.csproj.GenerateResource.cache
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\obj\Debug\Question1.csproj.CoreCompileInputs.cache
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\obj\Debug\Question1.exe
+C:\Users\Arin Dhimar\Documents\FergussonCollege\Sem - 2\.NET\StudyGuide\Question1\obj\Debug\Question1.pdb
+E:\Downloads\StudyGuide\StudyGuide\Question1\bin\Debug\Question1.exe.config
+E:\Downloads\StudyGuide\StudyGuide\Question1\bin\Debug\Question1.exe
+E:\Downloads\StudyGuide\StudyGuide\Question1\bin\Debug\Question1.pdb
+E:\Downloads\StudyGuide\StudyGuide\Question1\obj\Debug\Question1.csproj.AssemblyReference.cache
+E:\Downloads\StudyGuide\StudyGuide\Question1\obj\Debug\Question1.Form1.resources
+E:\Downloads\StudyGuide\StudyGuide\Question1\obj\Debug\Question1.Properties.Resources.resources
+E:\Downloads\StudyGuide\StudyGuide\Question1\obj\Debug\Question1.csproj.GenerateResource.cache
+E:\Downloads\StudyGuide\StudyGuide\Question1\obj\Debug\Question1.csproj.CoreCompileInputs.cache
+E:\Downloads\StudyGuide\StudyGuide\Question1\obj\Debug\Question1.exe
+E:\Downloads\StudyGuide\StudyGuide\Question1\obj\Debug\Question1.pdb
