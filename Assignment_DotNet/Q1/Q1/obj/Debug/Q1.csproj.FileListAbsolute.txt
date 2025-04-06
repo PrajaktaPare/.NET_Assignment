@@ -1,0 +1,7 @@
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q1\Q1\bin\Debug\Q1.exe.config
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q1\Q1\bin\Debug\Q1.exe
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q1\Q1\bin\Debug\Q1.pdb
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q1\Q1\obj\Debug\Q1.csproj.AssemblyReference.cache
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q1\Q1\obj\Debug\Q1.csproj.CoreCompileInputs.cache
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q1\Q1\obj\Debug\Q1.exe
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q1\Q1\obj\Debug\Q1.pdb

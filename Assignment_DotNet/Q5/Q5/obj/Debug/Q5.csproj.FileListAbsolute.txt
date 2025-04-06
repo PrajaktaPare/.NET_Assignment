@@ -1,0 +1,7 @@
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q5\Q5\bin\Debug\Q5.exe.config
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q5\Q5\bin\Debug\Q5.exe
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q5\Q5\bin\Debug\Q5.pdb
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q5\Q5\obj\Debug\Q5.csproj.AssemblyReference.cache
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q5\Q5\obj\Debug\Q5.csproj.CoreCompileInputs.cache
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q5\Q5\obj\Debug\Q5.exe
+F:\Mawdee\.NET_Assignment\Assignment_DotNet\Q5\Q5\obj\Debug\Q5.pdb
